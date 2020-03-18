@@ -1,0 +1,76 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: #dbffe7;
+    height: 30px;
+    float: top;
+    padding:5px;
+    width: 99%;
+}
+
+#ZHIHULogo{
+    position: absolute;
+}
+
+#Home{
+    height: 30px;
+    background-color: #dbffe7;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 80px;
+    text-align: center;
+}
+
+#Discovery{
+    height: 30px;
+    background-color: #dbffe7;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 230px;
+    text-align: center;
+}
+
+#WaitForYourAnswer{
+    height: 30px;
+    background-color: #dbffe7;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 380px;
+    text-align: center;
+}
+
+#Home:hover,#Discovery:hover,#WaitForYourAnswer:hover,#user:hover{
+    background-color: #ffea8f;
+}
+
+#user{
+    position:absolute;
+    margin: auto;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    min-width: 150px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#page{
+    position: absolute;
+    left:20px;
+}
