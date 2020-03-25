@@ -1,0 +1,57 @@
+html{
+    font-family: "Microsoft YaHei UI Light", sans-serif;
+}
+
+#main{
+    margin-left: 10%;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#form{
+    background-color: #dcf7ff;
+    width:800px;
+    height:700px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+p{
+    margin-left: 2%;
+}
+
+textarea{
+    width:600px;
+    height:150px;
+    background-color: white;
+    color: black;
+    resize: none;
+}
+
+#submit{
+    background-color: #bdf7ff;
+    height: 30px;
+    width: 60px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: #8fccff;
+}
+
+input{
+    border-radius: 5px;
+    border: #5a6273 solid 1px;
+    height: 20px;
+}
+
+select{
+    border: #5a6273 solid 1px;
+    border-radius: 5px;
+    height: 20px;
+}
+

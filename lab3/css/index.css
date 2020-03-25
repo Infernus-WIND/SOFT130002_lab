@@ -1,0 +1,128 @@
+html{
+    font-family: "Microsoft YaHei UI Light", sans-serif;
+}
+
+p{
+    line-height: 25px;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 50px;
+    float: top;
+    padding:5px;
+}
+
+#ZHIHULogo{
+    position: absolute;
+}
+
+#Home{
+    height: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 80px;
+    text-align: center;
+}
+
+#Discovery{
+    height: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 230px;
+    text-align: center;
+}
+
+#WaitForYourAnswer{
+    height: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 380px;
+    text-align: center;
+}
+
+#register{
+    height: 30px;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    width:150px;
+    font-size: 25px;
+    position: absolute;
+    left: 550px;
+    text-align: center;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5fbfff;
+}
+
+#user{
+    position:absolute;
+    margin: auto;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    font-family: "Bradley Hand ITC", fantasy;
+    font-weight: bold;
+    min-width: 150px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#page{
+    position: absolute;
+    left:20px;
+    margin-bottom: 50px;
+}
+
+aside{
+    float: right;
+    margin: 5% 5%;
+    font-size: 25px;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+aside ul {
+    padding: 0;
+    width: 100%;
+}
+
+#content{
+    background-color: #e5fdff;
+    width:75%;
+    margin-left: 10%;
+}
+
+small{
+    color: #0000b2;
+    background-color: #b7ebff;
+}
+
+.detail{
+    margin-left: 20px;
+}
