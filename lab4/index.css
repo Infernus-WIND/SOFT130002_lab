@@ -1,0 +1,36 @@
+#myAccount:focus,#myAccount:hover,#myAccount:active{
+    background-color: #94e7b8;
+}
+
+.footerIcon{
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+footer a{
+    color: #000536;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #484fff;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #dbffe7;
+}
+
+#copyright{
+    color: #000536;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.footerBlock{
+    margin-top: 30px;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
