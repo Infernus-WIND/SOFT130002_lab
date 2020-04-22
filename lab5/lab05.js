@@ -31,7 +31,7 @@ let num = 1025;
 let count = 0;
 let timer = window.setInterval(function timeTest(){
     i = i * 2;
-    if (count === 10 || (new Date()).getSeconds() === 0){
+    if (count === 10 || (new Date()).getSeconds() <= 4){
         num = i;
         window.clearInterval(timer);
     }
