@@ -144,22 +144,16 @@ console.log(set1);
     ④只能显式使用一次循环。
     ⑤str为字符串。
 */
-let words5,words5reverse,words5backup,count5 = 0;
+let words5;
+let result5 = "";
 function testSpecialReverse(str) {
-    words5 = str.split(" ");
-    words5backup = str.split(" ");
-    words5reverse = words5;
+    let str5 = str.trim().replace(/\s+/ig, " ");
+    words5 = str5.split(" ");
     for (let i = 0 ; i < words5.length ; i++){
-        words5reverse[words5.length - i - 1] = words5backup[i];
+        result5 += words5[words5.length - i - 1] + " ";
     }
 }
 testSpecialReverse("  hello  world!  ");
-let result5 = "";
-for (let i = 0 ; i < words5reverse.length ; i++){
-    if (words5reverse[i] !== ""){
-        result5 += words5reverse[i] + " ";
-    }
-}
 console.log(result5);
 
 /*
@@ -185,14 +179,12 @@ function twoSum(nums, target) {
         let mark2 = map6.get(target - nums[i]);
         if (mark2 !== undefined) {
             result6[count6] = [mark2,i];
+            console.log(result6[count6]);
             count6++;
         }
     }
 }
 twoSum([1,2,3,4],5);
-for (let i = 0 ; i < result6.length ; i++){
-    console.log(result6[i]);
-}
 
 
 /*
