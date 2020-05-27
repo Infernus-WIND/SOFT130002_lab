@@ -12,7 +12,11 @@
 date_default_timezone_set("Asia/Shanghai");
 $date = date("l, F dS, Y H:i:s");
 echo "This page was generated: " . $date . "<hr/>";
-$remaining = 366 - date("z");
+if (date("L")===1){
+    $remaining = 366 - date("z");
+} else {
+    $remaining = 365 - date("z");
+}
 echo "There are ". $remaining . " days left in the year";
 ?>
 </body>
