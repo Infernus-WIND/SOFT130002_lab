@@ -54,13 +54,11 @@ function validLogin(){
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(validLogin()){
         $_SESSION['Username']=$_POST['username'];
+        echo "Welcome ".$_SESSION['Username'];
     }
     else{
         echo "login unsuccessful";
     }
-}
-if(isset($_SESSION['Username'])){
-    echo "Welcome ".$_SESSION['Username'];
 }
 else{
     echo "No Post detected";
@@ -76,8 +74,8 @@ if (!isset($_SESSION['Username'])){
 else{
     echo "This is some content";
 }
-require_once("logout.php");
 ?>
+     <a href="logout.php">logout</a>
  </div>
 </body>
 </html>
