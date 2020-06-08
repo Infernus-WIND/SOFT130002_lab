@@ -1,0 +1,10 @@
+cookie和session都是用来保存信息的，原因是HTTP协议是无状态的，服务器无法记录用户的状态，这严重阻碍了交互式Web应用程序的实现。所以cookie和session诞生了。
+
+cookie是保存在客户端的，session是保存在服务器的。所以session的安全性要高于cookie。然而session会占用服务器的性能。
+
+cookie有大小限制，不仅单个cookie有大小限制，而大多数浏览器都对单个站点的cookie数量有限制。
+
+session没有对存储数据量的限制，其中可以保存更复杂的数据类型。
+
+cookie不能跨域名
+
